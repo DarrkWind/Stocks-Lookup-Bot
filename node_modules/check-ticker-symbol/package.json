@@ -1,0 +1,31 @@
+{
+  "name": "check-ticker-symbol",
+  "version": "1.0.0",
+  "description": "A simple Node.js module that checks whether a ticker (stock) symbol's format is valid or not. This module does not perform any lookup, it only checks the symbol's format.",
+  "main": "check-ticker-symbol.js",
+  "scripts": {
+    "test": "tap ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twostairs/node-check-ticker-symbol.git"
+  },
+  "keywords": [
+    "stock",
+    "ticker",
+    "symbol",
+    "check",
+    "validation",
+    "format",
+    "finance"
+  ],
+  "author": "Marius <marius@twostais.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twostairs/node-check-ticker-symbol/issues"
+  },
+  "homepage": "https://github.com/twostairs/node-check-ticker-symbol#readme",
+  "devDependencies": {
+    "tap": "^2.3.1"
+  }
+}
